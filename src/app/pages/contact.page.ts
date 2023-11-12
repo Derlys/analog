@@ -7,19 +7,13 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet,RouterLink],
   template: `
-    <div>
-      <a routerLink="/index" >
-        Inicio
-      </a>
-      <a routerLink="/posts" >
-        Blog
-      </a>
-      <a routerLink="/contact" >
-      Contacto
-      </a>
-    </div>
+    
+    <h2>Contacto</h2>
 
-    <h2>Analog</h2>
+
+    <a routerLink="/" >
+      Home
+      </a>
 
     <h3>The fullstack meta-framework for Angular!</h3>
 
