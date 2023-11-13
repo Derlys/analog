@@ -1,29 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterOutlet,RouterLink],
+  imports: [],
   template: `
-    <div>
-      <a routerLink="/index" >
-        Inicio
-      </a>
-      <a routerLink="/posts" >
-        Blog
-      </a>
-      <a routerLink="/contact" >
-      Contacto
-      </a>
-    </div>
-
     <h2>Analog</h2>
 
     <h3>The fullstack meta-framework for Angular!</h3>
-
-    
   `,
   styles: [
     `
